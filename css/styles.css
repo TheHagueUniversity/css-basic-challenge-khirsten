@@ -19,10 +19,10 @@ html {
 }
 
 body {
-  color: #343434;
+  color: #ffffff;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -30,6 +30,7 @@ img {
   width: 300px;
 }
 a {
+  text-decoration: none;
   color: #FFE66D;
 }
 a:hover {
@@ -82,6 +83,7 @@ header {
 /* Projects
 ------------------------------------*/
 .projects {
+  color:rgb(36, 36, 36);
   background: #F7FFF7;
 }
 .projects a {
@@ -89,16 +91,19 @@ header {
 }
 .projects .btn {
   color: #F7FFF7;
-  background: #2F3061;
+  background: rgb(98, 125, 138);
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
+  transition: 0.4s;
 }
 .projects .btn:hover {
-  background: rgba(47, 48, 97, 80%);
+  background: rgb(0, 0, 0);
+  color: white;
 }
 .project-item {
+  color:rgb(36, 36, 36);
   overflow: hidden;
 }
 .project-item h3 {
@@ -109,7 +114,7 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background: rgb(60, 82, 92);
 }
 
 
@@ -117,7 +122,7 @@ header {
 /* Education
 ------------------------------------*/
 .education {
-  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-image: url('https://www.touteleurope.eu/fileadmin/_processed_/0/7/politique-euro-formation-education-a387ed0502.jpg');
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
