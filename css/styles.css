@@ -87,28 +87,25 @@ header {
 
 /* Gallery
 ------------------------------------*/
-.gallery img {
-  width: 50%;
+.gallery-items img {
   height: auto;
+  margin: 0px 15px 0px 15px;
 }
 
-.gallery  {
-  margin: 5px;
-}
-
-.gallery img{
-  margin-top:25px;
-}
-
-.gallery-item {
-  padding: 15px;
+.gallery-items a {
   text-align: center;
+}
+
+.gallery-items {
+  display: flex;
+  flex-direction: row;
 }
 
 /* Hobbie
 ------------------------------------*/
 
 .hobbie {
+  background-color: green;
   color: black;
   background:white;
 }
